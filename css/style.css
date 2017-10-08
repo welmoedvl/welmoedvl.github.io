@@ -1,9 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
-body { 
+body {  
   padding-top: 20px; 
-  padding-bottom: 40px;  
+  padding-bottom: 40px;
+  min-width: 150px;
+  max-width: 750px;
+  margin: auto  
 }
 
 header { 
