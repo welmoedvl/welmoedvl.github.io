@@ -13,7 +13,7 @@ body {
 }
 
 header { 
-  font-family: 'Montserrat', Helvetica, sans-serif; 
+  font-family: 'Montserrat', Helvetica, sans-serif;
   text-transform: uppercase;
   }
 
@@ -41,22 +41,28 @@ footer {
   margin-left: 40px;
   margin-right: 40px;
   font-family: 'Merriweather', Georgia, Times; 
-  font-size: 19px; 
+  font-size: 18px; 
 }
 
 #wrapper {
   margin-left: 250px;
   padding-bottom: 60px;
 }
+
 #content {
   float: right;
   width: 100%;
 }
+
 #sidebar {
   float: center;
   width: 200px;
   margin-left: -225px;
+  margin-top: 0.5em;
+  font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; 
+  font-size: 12px;
 }
+
 #cleared {
   clear: both;
 }
@@ -107,3 +113,4 @@ img {
   width: 200px;
   height: 200px;
 }
+
