@@ -34,10 +34,14 @@ footer {
   font-size: 20px; 
 }
 
-h1 {
-  font-family: 'Montserrat', Helvetica, sans-serif;  
-  font-size: 25px; 
-  color: tomato;
+#intro2 {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Merriweather', Georgia, Times; 
+  font-size: 18px; 
 }
 
 #wrapper {
@@ -103,4 +107,3 @@ img {
   width: 200px;
   height: 200px;
 }
-
