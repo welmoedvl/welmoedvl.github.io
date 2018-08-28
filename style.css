@@ -1,71 +1,42 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import
+url(https://fonts.googleapis.com/css?family=Raleway);
 
 body { 
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 75px; 
   padding-bottom: 40px;
-  min-width: 150px;
-  max-width: 750px;
+  min-width: 600px;
+  max-width: 900px;
   margin: auto
 
 }
 
 header { 
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
   }
 
 footer { 
   text-align: right;
-  font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; 
+  font-family: Raleway, sans-serif; 
+  text-transform: uppercase; 
   font-size: 12px;
   color: rgb(126, 124, 117);
 }
 
-#intro { 
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-family: 'Merriweather', Georgia, Times; 
-  font-size: 20px; 
+h2 {
+  font-family: Raleway, sans-serif; 
+  font-size: 20px;
+  color: rgb(59, 103, 175);
 }
 
-#intro2 {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-family: 'Merriweather', Georgia, Times; 
-  font-size: 18px; 
-}
-
-#wrapper {
-  margin-left: 250px;
-  padding-bottom: 60px;
-}
-
-#content {
-  float: right;
-  width: 100%;
-}
-
-#sidebar {
-  float: center;
-  width: 200px;
-  margin-left: -225px;
-  margin-top: 0.5em;
-  font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; 
-  font-size: 12px;
-  font-weight: bold;
-}
-
-#cleared {
-  clear: both;
+h3 {
+  font-family: Raleway, sans-serif; 
+  font-size: 18px;
+  color: rgb(126, 124, 117);
 }
 
 hr {
@@ -106,12 +77,55 @@ li {
   margin: -5px 10px;
 }
 
-
-
 img {
   object-fit: cover;
   border-radius:50%;
   width: 200px;
   height: 200px;
+}
+
+#intro { 
+  float: right;
+  width: 70%;
+  padding-top: 30px;
+  padding-right: 25%;
+  font-family: Raleway, sans-serif;
+  font-size: 20px; 
+}
+
+#wrapper {
+  margin-left: 250px;
+  padding-bottom: 60px;
+}
+
+#content_box {
+  float: right;
+  width: 80%;
+  margin-top: 0.5em;
+  box-shadow: 0px 0px 11px 0px rgba(50,50,50,0.11);
+  background: #fff;
+  padding: 30px 35px;
+  position: relative;
+}
+
+#content_text {
+  display: block;
+  font-family: Raleway, sans-serif; 
+  font-size: 18px; 
+}
+
+#sidebar {
+  float: center;
+  width: 200px;
+  margin-left: -225px;
+  margin-top: 0.5em;
+  font-family: Raleway, sans-serif; 
+  text-transform: uppercase; 
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#cleared {
+  clear: both;
 }
 
