@@ -10,8 +10,8 @@ body {
   padding-bottom: 40px;
   min-width: 600px;
   max-width: 900px;
-  margin: auto
-
+  margin: auto;
+  background-color: rgb(252, 251, 250)
 }
 
 header { 
