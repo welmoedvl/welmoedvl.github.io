@@ -17,6 +17,7 @@ body {
 header { 
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
+  padding: 0px;
   }
 
 footer { 
@@ -28,19 +29,19 @@ footer {
 }
 
 h2 {
-  font-family: Raleway, sans-serif; 
+  font-family: "Montserrat", Helvetica, sans-serif; 
   font-size: 20px;
   color: rgb(59, 103, 175);
 }
 
 h3 {
-  font-family: Raleway, sans-serif; 
+  font-family: "Montserrat", Helvetica, sans-serif; 
   font-size: 18px;
   color: rgb(126, 124, 117);
 }
 
 hr {
-  margin-top: 20px;
+  margin-top: 2px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid rgb(255, 195, 0);
@@ -66,12 +67,6 @@ a:active {
   color: rgb(9, 123, 9);
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: right;
-}
-
 li {
   display: inline;
   margin: -5px 10px;
@@ -82,6 +77,36 @@ img {
   border-radius:50%;
   width: 200px;
   height: 200px;
+}
+
+#header_left {
+  font-family: Raleway, sans-serif; 
+  text-transform: uppercase; 
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(126, 124, 117);
+  width: 300px;
+  display: inline-block;
+}
+
+#header_right_1, #header_right_2 {
+  font-family: Raleway, sans-serif; 
+  text-transform: uppercase; 
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 195, 0);
+  display: inline-block;  
+  text-align: right;
+  float: right;
+}
+
+#header_right_1 {
+  width: 110px;
+}
+
+#header_right_2 {
+  width: 70px;
+  
 }
 
 #intro { 
@@ -119,10 +144,15 @@ img {
   width: 200px;
   margin-left: -225px;
   margin-top: 0.5em;
+}
+
+#sidebar_text {
   font-family: Raleway, sans-serif; 
   text-transform: uppercase; 
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
+  color: tomato;
+  margin-left: 20px;
 }
 
 #cleared {
